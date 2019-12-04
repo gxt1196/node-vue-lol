@@ -28,6 +28,11 @@ export default {
       const res = await this.$http.post("login",this.model);
       localStorage.token =res.data.token
       // sessionStorage.token=res.data.token  //浏览器关掉就得重新登录，
+      this.$router.push('/')
+      this.$message({
+        type:'success',
+        message:'登录成功'
+      })
     }
   }
 };
