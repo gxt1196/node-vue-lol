@@ -25,7 +25,9 @@ export default {
   },
   methods: {
     async login() {
-      const res = await this.$http.post("login");
+      const res = await this.$http.post("login",this.model);
+      localStorage.token =res.data.token
+      // sessionStorage.token=res.data.token  //浏览器关掉就得重新登录，
     }
   }
 };
