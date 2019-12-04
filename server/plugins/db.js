@@ -2,7 +2,8 @@ module.exports = app => {
   const mongoose = require("mongoose");
   mongoose.connect("mongodb+srv://jibeike:GUOxt144@bgtshow-ekxh2.mongodb.net/node-vue-lol?retryWrites=true&w=majority", {
     useNewUrlParser: true,
-    useUnifiedTopology: true
+    useUnifiedTopology: true,
+    useFindAndModify: false
   });
 
 };
