@@ -47,6 +47,17 @@
         收起
       </div>
     </div>
+    <!-- end of nav icons  -->
+    <div class="card p-3">
+      <div class="card-header d-flex">
+   <i class="iconfont">&#xe664;</i>
+   <div class="fs-xxl"></div>
+      </div>
+      <div class="card-body">
+
+      </div>
+    </div>
+    <i class="iconfont ">&#xe664;</i>
   </div>
 </template>
 
