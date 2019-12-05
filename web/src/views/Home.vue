@@ -30,10 +30,23 @@
         />
       </swiper-slide>
       <div
-        class="swiper-pagination pagination-home text-right"
+        class="swiper-pagination pagination-home text-right px-3 pb-2"
         slot="pagination"
       ></div>
     </swiper>
+    <!-- end of swiper -->
+    <div class="nav-icons bg-white mt-3  text-center pt-3 text-dark-1">
+      <div class="d-flex flex-wrap">
+        <div class="nav-item mb-3" v-for="(item, i) in items" :key="i">
+          <i class=" sprite" :class="item.class"></i>
+          <div class="py-2">{{ item.name }}</div>
+        </div>
+      </div>
+      <div class="bg-light py-2 fs-sm d-flex ai-center jc-center">
+        <i class="sprite sprite-arrow mr-1"></i>
+        收起
+      </div>
+    </div>
   </div>
 </template>
 
@@ -44,21 +57,48 @@ export default {
       swiperOption: {
         pagination: {
           el: ".pagination-home"
-        }
+        },
+        loop: true,
+        autoplay: true, //可设置数值来指定播放速度
+        speed: 400 // 切换图片速度
       },
-      swiperSlides: [1, 2, 3, 4, 5]
+      items: [
+        { name: "爆料站", class: "sprite-news" },
+        { name: "故事站", class: "sprite-story" },
+        { name: "周边商城", class: "sprite-shopping" },
+        { name: "体验服", class: "sprite-experience" },
+        { name: "新人专区", class: "sprite-newcomer" },
+        { name: "荣耀传承", class: "sprite-glory" },
+        { name: "同人社区", class: "sprite-community" },
+        { name: "王者营地", class: "sprite-base" },
+        { name: "公众号", class: "sprite-public" },
+        { name: "版本介绍", class: "sprite-version" }
+      ]
     };
   }
 };
 </script>
 
 <style lang="scss">
-@import "../style.scss";
+@import "../assets/scss/variables";
 .pagination-home {
   .swiper-pagination-bullet {
-    background: #fff;
+    opacity: 1;
+    border-radius: 0.1538rem;
+    background: map-get($colors, "white");
     &.swiper-pagination-bullet-active {
-      background: ;
+      background: map-get($colors, "info");
+    }
+  }
+}
+.nav-icons {
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  .nav-item {
+    width: 25%;
+    border-right: 1px solid $border-color;
+    &:nth-child(4n) {
+      border-right: none;
     }
   }
 }
