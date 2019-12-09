@@ -12,7 +12,10 @@ import 'swiper/dist/css/swiper.css'
 Vue.use(VueAwesomeSwiper, /* { default global options } */ )
 
 
-import './assets/iconfont/iconfont.css' ;
+import Card from './components/Card.vue'
+Vue.component('m-card', Card)
+
+import './assets/iconfont/iconfont.css';
 new Vue({
   router,
   render: h => h(App)

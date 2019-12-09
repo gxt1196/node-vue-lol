@@ -2,43 +2,27 @@
   <div>
     <swiper :options="swiperOption">
       <swiper-slide>
-        <img
-          class="w-100"
-          src="../assets/images/8bd456d23cbfaecec54e604dc4432c74.jpeg"
-        /> </swiper-slide
-      ><swiper-slide>
-        <img
-          class="w-100"
-          src="../assets/images/8db79c73d28b468ea13c065973534c18.jpeg"
-        /> </swiper-slide
-      ><swiper-slide>
-        <img
-          class="w-100"
-          src="../assets/images/605a0a647fc37364032a404b4281884d.jpeg"
-        />
+        <img class="w-100" src="../assets/images/8bd456d23cbfaecec54e604dc4432c74.jpeg" />
       </swiper-slide>
       <swiper-slide>
-        <img
-          class="w-100"
-          src="../assets/images/be3e76d5f1665559c6c4b3c9d23fa13d.jpeg"
-        />
+        <img class="w-100" src="../assets/images/8db79c73d28b468ea13c065973534c18.jpeg" />
       </swiper-slide>
       <swiper-slide>
-        <img
-          class="w-100"
-          src="../assets/images/dbf77f60688a97e981e88170a6250be6.jpeg"
-        />
+        <img class="w-100" src="../assets/images/605a0a647fc37364032a404b4281884d.jpeg" />
       </swiper-slide>
-      <div
-        class="swiper-pagination pagination-home text-right px-3 pb-2"
-        slot="pagination"
-      ></div>
+      <swiper-slide>
+        <img class="w-100" src="../assets/images/be3e76d5f1665559c6c4b3c9d23fa13d.jpeg" />
+      </swiper-slide>
+      <swiper-slide>
+        <img class="w-100" src="../assets/images/dbf77f60688a97e981e88170a6250be6.jpeg" />
+      </swiper-slide>
+      <div class="swiper-pagination pagination-home text-right px-3 pb-2" slot="pagination"></div>
     </swiper>
     <!-- end of swiper -->
-    <div class="nav-icons bg-white mt-3  text-center pt-3 text-dark-1">
+    <div class="nav-icons bg-white mt-3 text-center pt-3 text-dark-1">
       <div class="d-flex flex-wrap">
         <div class="nav-item mb-3" v-for="(item, i) in items" :key="i">
-          <i class=" sprite" :class="item.class"></i>
+          <i class="sprite" :class="item.class"></i>
           <div class="py-2">{{ item.name }}</div>
         </div>
       </div>
@@ -48,16 +32,46 @@
       </div>
     </div>
     <!-- end of nav icons  -->
-    <div class="card p-3">
-      <div class="card-header d-flex">
-   <i class="iconfont">&#xe664;</i>
-   <div class="fs-xxl"></div>
-      </div>
-      <div class="card-body">
+    <m-card icon="menu" title="新闻资讯"></m-card>
 
+    <div class="card p-3 bg-white mt-3">
+      <div class="card-header d-flex ai-center">
+        <i class="iconfont">&#xe612;</i>
+        <div class="fs-xl flex-1 px-2">新闻资讯</div>
+        <i class="iconfont">&#xe6a2;</i>
+      </div>
+      <div class="card-body pt-3">
+        <div class="nav jc-between">
+          <div class="nav-item active">
+            <div class="nave-link">热门</div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-link">新闻</div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-link">新闻</div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-link">新闻</div>
+          </div>
+          <div class="nav-item">
+            <div class="nav-link">新闻</div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-3">
+        <swiper>
+          <swiper-slide v-for="m in 5" :key="m">
+            <div class="py-2" v-for="n in 5" :key="n">
+              <span>[新闻]</span>
+              <span>|</span>
+              <span>这是标题</span>
+            </div>
+          </swiper-slide>
+        </swiper>
       </div>
     </div>
-    <i class="iconfont ">&#xe664;</i>
+    <i class="iconfont">&#xe664;</i>
   </div>
 </template>
 

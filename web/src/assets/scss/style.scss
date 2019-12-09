@@ -1,4 +1,4 @@
-@import './variables';
+@import "./variables";
 
 // reset
 
@@ -24,9 +24,7 @@ a {
   color: #999;
 }
 
-
-@each $colorKey,
-$color in $colors {
+@each $colorKey, $color in $colors {
   .text-#{$colorKey} {
     color: $color;
   }
@@ -43,10 +41,7 @@ $color in $colors {
   }
 }
 
-
-
-@each $sizeKey,
-$size in $font-sizes {
+@each $sizeKey, $size in $font-sizes {
   .fs-#{$sizeKey} {
     font-size: $size * $base-font-size;
   }
@@ -74,17 +69,13 @@ $size in $font-sizes {
   flex-wrap: wrap;
 }
 
-@each $key,
-$value in $flex-jc {
+@each $key, $value in $flex-jc {
   .jc-#{$key} {
     justify-content: $value;
   }
 }
 
-
-
-@each $key,
-$value in $flex-ai {
+@each $key, $value in $flex-ai {
   .ai-#{$key} {
     align-items: $value;
   }
@@ -98,14 +89,9 @@ $value in $flex-ai {
   flex-grow: 1;
 }
 
-
-@each $typeKey,
-$type in $spacing-types {
-
+@each $typeKey, $type in $spacing-types {
   // .m-1
-  @each $sizeKey,
-  $size in $spacing-sizes {
-
+  @each $sizeKey, $size in $spacing-sizes {
     // .mt-1
     .#{$typeKey}-#{$sizeKey} {
       #{$type}: $size * $spacing-base-size;
@@ -113,9 +99,7 @@ $type in $spacing-types {
   }
 
   //.mx-1
-  @each $sizeKey,
-  $size in $spacing-sizes {
-
+  @each $sizeKey, $size in $spacing-sizes {
     // .mt-1
     .#{$typeKey}x-#{$sizeKey} {
       #{$type}-left: $size * $spacing-base-size;
@@ -129,11 +113,8 @@ $type in $spacing-types {
   }
 
   //.mt-1
-  @each $directionKey,
-  $direction in $spacing-directions {
-
-    @each $sizeKey,
-    $size in $spacing-sizes {
+  @each $directionKey, $direction in $spacing-directions {
+    @each $sizeKey, $size in $spacing-sizes {
       .#{$typeKey}#{$directionKey}-#{$sizeKey} {
         #{$type}-#{$direction}: $size * $spacing-base-size;
       }
@@ -151,12 +132,21 @@ $type in $spacing-types {
 
 //nav
 .nav {
+  display: flex;
   .nav-item {
     border-bottom: 3px solid transparent;
     padding-bottom: 0.2rem;
-
     &.active {
-      border-bottom: 3px solid #fff;
+      color: map-get($colors, "primary");
+      border-bottom-color: map-get($colors, "primary");
+    }
+  }
+  &.nav-inverse {
+    .nav-item {
+      color: map-get($colors, "white");
+      &.active {
+        border-bottom-color: map-get($colors, "white");
+      }
     }
   }
 }
@@ -232,5 +222,4 @@ $type in $spacing-types {
     height: 0.7692rem;
     background-position: 38.577% 52.076%;
   }
-
 }

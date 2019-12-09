@@ -1,10 +1,24 @@
 {
-  "id": "",
-  "name": "",
+  "id": "1552490",
+  "name": "node-vue-lol",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
+    {
+      "icon_id": "1608363",
+      "name": "menu",
+      "font_class": "menu",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "2747874",
+      "name": "menu",
+      "font_class": "menu1",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
     {
       "icon_id": "6654507",
       "name": "card-hero",
@@ -13,11 +27,11 @@
       "unicode_decimal": 58911
     },
     {
-      "icon_id": "8329823",
-      "name": "Menu",
-      "font_class": "Menu",
-      "unicode": "e664",
-      "unicode_decimal": 58980
+      "icon_id": "9811644",
+      "name": "点",
+      "font_class": "dian",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
     }
   ]
 }
