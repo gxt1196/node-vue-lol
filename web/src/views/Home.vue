@@ -32,46 +32,36 @@
       </div>
     </div>
     <!-- end of nav icons  -->
-    <m-card icon="menu" title="新闻资讯"></m-card>
-
-    <div class="card p-3 bg-white mt-3">
-      <div class="card-header d-flex ai-center">
-        <i class="iconfont">&#xe612;</i>
-        <div class="fs-xl flex-1 px-2">新闻资讯</div>
-        <i class="iconfont">&#xe6a2;</i>
-      </div>
-      <div class="card-body pt-3">
-        <div class="nav jc-between">
-          <div class="nav-item active">
-            <div class="nave-link">热门</div>
-          </div>
-          <div class="nav-item">
-            <div class="nav-link">新闻</div>
-          </div>
-          <div class="nav-item">
-            <div class="nav-link">新闻</div>
-          </div>
-          <div class="nav-item">
-            <div class="nav-link">新闻</div>
-          </div>
-          <div class="nav-item">
-            <div class="nav-link">新闻</div>
-          </div>
+    <m-list-card icon="menu" title="新闻资讯" :categories="newsCats">
+      <template #items="{category}">
+        <div class="py-2" v-for="(news,i) in category.newsList" :key="i">
+          <span>[{{news.categoryName}}]</span>
+          <span>|</span>
+          <span>{{news.title}}</span>
+          <span>{{news.date}}</span>
         </div>
-      </div>
-      <div class="pt-3">
-        <swiper>
-          <swiper-slide v-for="m in 5" :key="m">
-            <div class="py-2" v-for="n in 5" :key="n">
-              <span>[新闻]</span>
-              <span>|</span>
-              <span>这是标题</span>
-            </div>
-          </swiper-slide>
-        </swiper>
-      </div>
-    </div>
-    <i class="iconfont">&#xe664;</i>
+      </template>
+    </m-list-card>
+      <m-list-card icon="menu" title="新闻资讯" :categories="newsCats">
+      <template #items="{category}">
+        <div class="py-2" v-for="(news,i) in category.newsList" :key="i">
+          <span>[{{news.categoryName}}]</span>
+          <span>|</span>
+          <span>{{news.title}}</span>
+          <span>{{news.date}}</span>
+        </div>
+      </template>
+    </m-list-card>
+      <m-list-card icon="menu" title="新闻资讯" :categories="newsCats">
+      <template #items="{category}">
+        <div class="py-2" v-for="(news,i) in category.newsList" :key="i">
+          <span>[{{news.categoryName}}]</span>
+          <span>|</span>
+          <span>{{news.title}}</span>
+          <span>{{news.date}}</span>
+        </div>
+      </template>
+    </m-list-card>
   </div>
 </template>
 
@@ -98,8 +88,47 @@ export default {
         { name: "王者营地", class: "sprite-base" },
         { name: "公众号", class: "sprite-public" },
         { name: "版本介绍", class: "sprite-version" }
-      ]
-    };
+      ],newsCats:[{
+       name:"热门",
+       newsList:new Array(5).fill(1).map(()=>({
+         categoryName:'公告',
+         title:'ceshi1',
+         date:'06/01'
+       }))
+    },{
+       name:"新闻",
+       newsList:new Array(5).fill(1).map(()=>({
+         categoryName:'公告',
+         title:'haha',
+         date:'06/01'
+       }))
+    },{
+       name:"公告",
+       newsList:new Array(5).fill(1).map(()=>({
+         categoryName:'公告',
+         title:'haha',
+         date:'06/01'
+       }))
+    },{
+       name:"活动",
+       newsList:new Array(5).fill(1).map(()=>({
+         categoryName:'公告',
+         title:'haha',
+         date:'06/01'
+       }))
+    },{
+       name:"赛事",
+       newsList:new Array(5).fill(1).map(()=>({
+         categoryName:'公告',
+         title:'haha',
+         date:'06/01'
+       }))
+    },
+    
+    
+    ]
+    }
+    
   }
 };
 </script>
