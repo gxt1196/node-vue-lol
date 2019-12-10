@@ -3,9 +3,10 @@
     <el-aside width="200px" style="background-color: rgb(238, 241, 246)">
       <el-menu
         router
-        :default-openeds="['1']"
+        :default-openeds="opened"
         unique-opened
-        default-active="$route.path"
+        :default-active="$route.path"
+        @select="select"
       >
         <el-submenu index="1">
           <template slot="title">
@@ -71,7 +72,7 @@
       </el-header>
 
       <el-main>
-        <router-view></router-view>
+        <router-view :key="$route.path"></router-view>
       </el-main>
     </el-container>
   </el-container>
@@ -80,14 +81,19 @@
 <script>
 export default {
   data() {
-    const item = {
-      date: "2016-05-02",
-      name: "王小虎",
-      address: "上海市普陀区金沙江路 1518 弄"
-    };
     return {
-      tableData: Array(20).fill(item)
+      tableData: Array(20).fill({
+        date: "2016-05-02",
+        name: "王小虎",
+        address: "上海市普陀区金沙江路 1518 弄"
+      }),
+      opened: ["1"]
     };
+  },
+  methods: {
+    select(i, q) {
+      this.opened = [q[0]];
+    }
   }
 };
 </script>

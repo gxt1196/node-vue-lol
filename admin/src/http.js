@@ -3,29 +3,30 @@ import Vue from 'vue';
 import router from './router/index'
 
 const http = axios.create({
-    baseURL: 'http://localhost:3000/admin/api'
+  baseURL: 'http://localhost:3000/admin/api'
 })
 
-http.interceptors.response.use(config=>{
+http.interceptors.request.use(config => {
   if (localStorage.token) {
-    config.headers.Authorization='Bearer '+ localStorage.token 
+    config.headers.authorization = 'Bearer ' + localStorage.token
   }
   return config
-},error=>{
+}, error => {
   return Promise.reject(error)
 })
 
-http.interceptors.response.use(res=>{
+http.interceptors.response.use(res => {
   return res
-},err=>{
-    if (err.response.data.message) {
-        Vue.prototype.$message({
-            type:'error',
-          message:err.response.data.message})
-          if (err.response.status === 401) {
-          router.push('/login')  
-          }
+}, err => {
+  if (err.response.data.message) {
+    Vue.prototype.$message({
+      type: 'error',
+      message: err.response.data.message
+    })
+    if (err.response.status === 401) {
+      router.push('/login')
     }
-    return Promise.reject(err)
+  }
+  return Promise.reject(err)
 })
 export default http
