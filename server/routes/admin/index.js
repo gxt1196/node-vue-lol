@@ -31,7 +31,7 @@ module.exports = app => {
         }
         const items = await req.Model.find()
             .setOptions(queryOptions)
-            .limit(10);
+            .limit(100);
         res.send(items);
     });
     router.get("/:id", async (req, res) => {
