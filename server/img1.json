@@ -1,0 +1,586 @@
+[
+    {
+        "name": "黑暗之女 安妮",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Annie.png"
+    },
+    {
+        "name": "狂战士 奥拉夫",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Olaf.png"
+    },
+    {
+        "name": "正义巨像 加里奥",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Galio.png"
+    },
+    {
+        "name": "卡牌大师 崔斯特",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/TwistedFate.png"
+    },
+    {
+        "name": "德邦总管 赵信",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/XinZhao.png"
+    },
+    {
+        "name": "无畏战车 厄加特",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Urgot.png"
+    },
+    {
+        "name": "诡术妖姬 乐芙兰",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Leblanc.png"
+    },
+    {
+        "name": "猩红收割者 弗拉基米尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Vladimir.png"
+    },
+    {
+        "name": "末日使者 费德提克",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/FiddleSticks.png"
+    },
+    {
+        "name": "正义天使 凯尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Kayle.png"
+    },
+    {
+        "name": "无极剑圣 易",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/MasterYi.png"
+    },
+    {
+        "name": "牛头酋长 阿利斯塔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Alistar.png"
+    },
+    {
+        "name": "符文法师 瑞兹",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Ryze.png"
+    },
+    {
+        "name": "亡灵战神 赛恩",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Sion.png"
+    },
+    {
+        "name": "战争女神 希维尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Sivir.png"
+    },
+    {
+        "name": "众星之子 索拉卡",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Soraka.png"
+    },
+    {
+        "name": "迅捷斥候 提莫",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Teemo.png"
+    },
+    {
+        "name": "麦林炮手 崔丝塔娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Tristana.png"
+    },
+    {
+        "name": "祖安怒兽 沃里克",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Warwick.png"
+    },
+    {
+        "name": "雪原双子 努努和威朗普",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Nunu.png"
+    },
+    {
+        "name": "赏金猎人 厄运小姐",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/MissFortune.png"
+    },
+    {
+        "name": "寒冰射手 艾希",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Ashe.png"
+    },
+    {
+        "name": "蛮族之王 泰达米尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Tryndamere.png"
+    },
+    {
+        "name": "武器大师 贾克斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Jax.png"
+    },
+    {
+        "name": "堕落天使 莫甘娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Morgana.png"
+    },
+    {
+        "name": "时光守护者 基兰",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Zilean.png"
+    },
+    {
+        "name": "炼金术士 辛吉德",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Singed.png"
+    },
+    {
+        "name": "痛苦之拥 伊芙琳",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Evelynn.png"
+    },
+    {
+        "name": "瘟疫之源 图奇",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Twitch.png"
+    },
+    {
+        "name": "死亡颂唱者 卡尔萨斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Karthus.png"
+    },
+    {
+        "name": "虚空恐惧 科加斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Chogath.png"
+    },
+    {
+        "name": "殇之木乃伊 阿木木",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Amumu.png"
+    },
+    {
+        "name": "披甲龙龟 拉莫斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Rammus.png"
+    },
+    {
+        "name": "冰晶凤凰 艾尼维亚",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Anivia.png"
+    },
+    {
+        "name": "恶魔小丑 萨科",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Shaco.png"
+    },
+    {
+        "name": "祖安狂人 蒙多医生",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/DrMundo.png"
+    },
+    {
+        "name": "琴瑟仙女 娑娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Sona.png"
+    },
+    {
+        "name": "虚空行者 卡萨丁",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Kassadin.png"
+    },
+    {
+        "name": "刀锋舞者 艾瑞莉娅",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Irelia.png"
+    },
+    {
+        "name": "风暴之怒 迦娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Janna.png"
+    },
+    {
+        "name": "海洋之灾 普朗克",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Gangplank.png"
+    },
+    {
+        "name": "英勇投弹手 库奇",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Corki.png"
+    },
+    {
+        "name": "天启者 卡尔玛",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Karma.png"
+    },
+    {
+        "name": "瓦洛兰之盾 塔里克",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Taric.png"
+    },
+    {
+        "name": "邪恶小法师 维迦",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Veigar.png"
+    },
+    {
+        "name": "巨魔之王 特朗德尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Trundle.png"
+    },
+    {
+        "name": "诺克萨斯统领 斯维因",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Swain.png"
+    },
+    {
+        "name": "皮城女警 凯特琳",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Caitlyn.png"
+    },
+    {
+        "name": "蒸汽机器人 布里茨",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Blitzcrank.png"
+    },
+    {
+        "name": "熔岩巨兽 墨菲特",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Malphite.png"
+    },
+    {
+        "name": "不祥之刃 卡特琳娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Katarina.png"
+    },
+    {
+        "name": "永恒梦魇 魔腾",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Nocturne.png"
+    },
+    {
+        "name": "扭曲树精 茂凯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Maokai.png"
+    },
+    {
+        "name": "荒漠屠夫 雷克顿",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Renekton.png"
+    },
+    {
+        "name": "德玛西亚皇子 嘉文四世",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/JarvanIV.png"
+    },
+    {
+        "name": "蜘蛛女皇 伊莉丝",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Elise.png"
+    },
+    {
+        "name": "发条魔灵 奥莉安娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Orianna.png"
+    },
+    {
+        "name": "齐天大圣 孙悟空",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/MonkeyKing.png"
+    },
+    {
+        "name": "复仇焰魂 布兰德",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Brand.png"
+    },
+    {
+        "name": "盲僧 李青",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/LeeSin.png"
+    },
+    {
+        "name": "暗夜猎手 薇恩",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Vayne.png"
+    },
+    {
+        "name": "机械公敌 兰博",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Rumble.png"
+    },
+    {
+        "name": "魔蛇之拥 卡西奥佩娅",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Cassiopeia.png"
+    },
+    {
+        "name": "水晶先锋 斯卡纳",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Skarner.png"
+    },
+    {
+        "name": "大发明家 黑默丁格",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Heimerdinger.png"
+    },
+    {
+        "name": "沙漠死神 内瑟斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Nasus.png"
+    },
+    {
+        "name": "狂野女猎手 奈德丽",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Nidalee.png"
+    },
+    {
+        "name": "兽灵行者 乌迪尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Udyr.png"
+    },
+    {
+        "name": "圣锤之毅 波比",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Poppy.png"
+    },
+    {
+        "name": "酒桶 古拉加斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Gragas.png"
+    },
+    {
+        "name": "不屈之枪 潘森",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Pantheon.png"
+    },
+    {
+        "name": "探险家 伊泽瑞尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Ezreal.png"
+    },
+    {
+        "name": "铁铠冥魂 莫德凯撒",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Mordekaiser.png"
+    },
+    {
+        "name": "牧魂人 约里克",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Yorick.png"
+    },
+    {
+        "name": "离群之刺 阿卡丽",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Akali.png"
+    },
+    {
+        "name": "狂暴之心 凯南",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Kennen.png"
+    },
+    {
+        "name": "德玛西亚之力 盖伦",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Garen.png"
+    },
+    {
+        "name": "曙光女神 蕾欧娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Leona.png"
+    },
+    {
+        "name": "虚空先知 玛尔扎哈",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Malzahar.png"
+    },
+    {
+        "name": "刀锋之影 泰隆",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Talon.png"
+    },
+    {
+        "name": "放逐之刃 锐雯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Riven.png"
+    },
+    {
+        "name": "深渊巨口 克格莫",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/KogMaw.png"
+    },
+    {
+        "name": "暮光之眼 慎",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Shen.png"
+    },
+    {
+        "name": "光辉女郎 拉克丝",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Lux.png"
+    },
+    {
+        "name": "远古巫灵 泽拉斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Xerath.png"
+    },
+    {
+        "name": "龙血武姬 希瓦娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Shyvana.png"
+    },
+    {
+        "name": "九尾妖狐 阿狸",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Ahri.png"
+    },
+    {
+        "name": "法外狂徒 格雷福斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Graves.png"
+    },
+    {
+        "name": "潮汐海灵 菲兹",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Fizz.png"
+    },
+    {
+        "name": "雷霆咆哮 沃利贝尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Volibear.png"
+    },
+    {
+        "name": "傲之追猎者 雷恩加尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Rengar.png"
+    },
+    {
+        "name": "惩戒之箭 韦鲁斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Varus.png"
+    },
+    {
+        "name": "深海泰坦 诺提勒斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Nautilus.png"
+    },
+    {
+        "name": "机械先驱 维克托",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Viktor.png"
+    },
+    {
+        "name": "北地之怒 瑟庄妮",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Sejuani.png"
+    },
+    {
+        "name": "无双剑姬 菲奥娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Fiora.png"
+    },
+    {
+        "name": "爆破鬼才 吉格斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Ziggs.png"
+    },
+    {
+        "name": "仙灵女巫 璐璐",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Lulu.png"
+    },
+    {
+        "name": "荣耀行刑官 德莱文",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Draven.png"
+    },
+    {
+        "name": "战争之影 赫卡里姆",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Hecarim.png"
+    },
+    {
+        "name": "虚空掠夺者 卡兹克",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Khazix.png"
+    },
+    {
+        "name": "诺克萨斯之手 德莱厄斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Darius.png"
+    },
+    {
+        "name": "未来守护者 杰斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Jayce.png"
+    },
+    {
+        "name": "冰霜女巫 丽桑卓",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Lissandra.png"
+    },
+    {
+        "name": "皎月女神 黛安娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Diana.png"
+    },
+    {
+        "name": "德玛西亚之翼 奎因",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Quinn.png"
+    },
+    {
+        "name": "暗黑元首 辛德拉",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Syndra.png"
+    },
+    {
+        "name": "铸星龙王 奥瑞利安·索尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/AurelionSol.png"
+    },
+    {
+        "name": "影流之镰 凯隐",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Kayn.png"
+    },
+    {
+        "name": "暮光星灵 佐伊",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Zoe.png"
+    },
+    {
+        "name": "荆棘之兴 婕拉",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Zyra.png"
+    },
+    {
+        "name": "虚空之女 卡莎",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Kaisa.png"
+    },
+    {
+        "name": "迷失之牙 纳尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Gnar.png"
+    },
+    {
+        "name": "生化魔人 扎克",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Zac.png"
+    },
+    {
+        "name": "疾风剑豪 亚索",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Yasuo.png"
+    },
+    {
+        "name": "虚空之眼 维克兹",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Velkoz.png"
+    },
+    {
+        "name": "岩雀 塔莉垭",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Taliyah.png"
+    },
+    {
+        "name": "青钢影 卡蜜尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Camille.png"
+    },
+    {
+        "name": "弗雷尔卓德之心 布隆",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Braum.png"
+    },
+    {
+        "name": "戏命师 烬",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Jhin.png"
+    },
+    {
+        "name": "永猎双子 千珏",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Kindred.png"
+    },
+    {
+        "name": "暴走萝莉 金克丝",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Jinx.png"
+    },
+    {
+        "name": "河流之王 塔姆",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/TahmKench.png"
+    },
+    {
+        "name": "涤魂圣枪 赛娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Senna.png"
+    },
+    {
+        "name": "圣枪游侠 卢锡安",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Lucian.png"
+    },
+    {
+        "name": "影流之主 劫",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Zed.png"
+    },
+    {
+        "name": "暴怒骑士 克烈",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Kled.png"
+    },
+    {
+        "name": "时间刺客 艾克",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Ekko.png"
+    },
+    {
+        "name": "元素女皇 奇亚娜",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Qiyana.png"
+    },
+    {
+        "name": "皮城执法官 蔚",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Vi.png"
+    },
+    {
+        "name": "暗裔剑魔 亚托克斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Aatrox.png"
+    },
+    {
+        "name": "唤潮鲛姬 娜美",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Nami.png"
+    },
+    {
+        "name": "沙漠皇帝 阿兹尔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Azir.png"
+    },
+    {
+        "name": "魔法猫咪 悠米",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Yuumi.png"
+    },
+    {
+        "name": "魂锁典狱长 锤石",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Thresh.png"
+    },
+    {
+        "name": "海兽祭司 俄洛伊",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Illaoi.png"
+    },
+    {
+        "name": "虚空遁地兽 雷克塞",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/RekSai.png"
+    },
+    {
+        "name": "翠神 艾翁",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Ivern.png"
+    },
+    {
+        "name": "复仇之矛 卡莉丝塔",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Kalista.png"
+    },
+    {
+        "name": "星界游神 巴德",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Bard.png"
+    },
+    {
+        "name": "幻翎 洛",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Rakan.png"
+    },
+    {
+        "name": "逆羽 霞",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Xayah.png"
+    },
+    {
+        "name": "山隐之焰 奥恩",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Ornn.png"
+    },
+    {
+        "name": "解脱者 塞拉斯",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Sylas.png"
+    },
+    {
+        "name": "万花通灵 妮蔻",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Neeko.png"
+    },
+    {
+        "name": "血港鬼影 派克",
+        "avatar": "https://game.gtimg.cn/images/lol/act/img/champion/Pyke.png"
+    }
+]

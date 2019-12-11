@@ -7,6 +7,12 @@
      avatar: {
          type: String //保存图片地址
      },
+     selectAudio: {
+         type: String
+     },
+     banAudio: {
+         type: String
+     },
      title: {
          type: String
      },
@@ -15,16 +21,19 @@
          ref: 'Category'
      }],
      scores: {
-         difficult: {
-             type: Number
-         },
          skills: {
              type: Number
          },
          attack: {
              type: Number
          },
-         survive: {
+         magic: {
+             type: Number
+         },
+         defense: {
+             type: Number
+         },
+         difficult: {
              type: Number
          },
      },
@@ -70,4 +79,4 @@
      }],
  })
 
- module.exports = mongoose.model('Hero', schema)
+ module.exports = mongoose.model('Hero', schema, 'heroes')
