@@ -31,34 +31,51 @@
               ></el-option>
             </el-select>
           </el-form-item>
-          <el-form-item label="难度">
+          <el-form-item label="上手难度">
             <el-rate
               style="margin-top:0.6rem"
-              :max="9"
+              :max="10"
               show-score
               v-model="model.scores.difficult"
             ></el-rate>
           </el-form-item>
-          <el-form-item label="技能">
+          <el-form-item label="技能难度">
             <el-rate
               style="margin-top:0.6rem"
-              :max="9"
+              :max="10"
               show-score
               v-model="model.scores.skills"
             ></el-rate>
           </el-form-item>
-          <el-form-item label="攻击">
+          <el-form-item label="物理攻击">
             <el-rate
               style="margin-top:0.6rem"
-              :max="9"
+              :max="10"
               show-score
               v-model="model.scores.attack"
             ></el-rate>
           </el-form-item>
-          <el-form-item label="生存">
+           <el-form-item label="魔法攻击">
             <el-rate
               style="margin-top:0.6rem"
-              :max="9"
+              :max="10"
+              show-score
+              v-model="model.scores.magic"
+            ></el-rate>
+          </el-form-item>
+          
+            <el-form-item label="防御能力">
+            <el-rate
+              style="margin-top:0.6rem"
+              :max="10"
+              show-score
+              v-model="model.scores.defense"
+            ></el-rate>
+          </el-form-item>
+          <el-form-item label="生存能力">
+            <el-rate
+              style="margin-top:0.6rem"
+              :max="10"
               show-score
               v-model="model.scores.survive"
             ></el-rate>
