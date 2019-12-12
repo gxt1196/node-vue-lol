@@ -2521,7 +2521,10 @@ module.exports = app => {
   });
 
    router.get("/heroes/:id", async (req, res) => {
-       const data = await Hero.findById(req.params.id).populate('categories').lean(); //lean表示纯json
+       const data = await Hero
+       .findById(req.params.id)
+       .populate('categories items1 items2 partners.hero')
+       .lean(); //lean表示纯json
        res.send(data);
    });
 
