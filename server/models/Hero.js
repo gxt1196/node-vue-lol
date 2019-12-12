@@ -4,6 +4,15 @@
      name: {
          type: String
      },
+     banner: {
+         type: String
+     },
+     delay: {
+         type: String
+     },
+     cost: {
+         type: String
+     },
      avatar: {
          type: String //保存图片地址
      },

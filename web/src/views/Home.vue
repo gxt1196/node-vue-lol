@@ -34,46 +34,51 @@
     <!-- end of nav icons  -->
     <m-list-card icon="menu" title="新闻资讯" :categories="newsCats">
       <template #items="{category}">
-        <router-link tag="div"
-        :to="`/articles/${news._id}`"
-         class="py-2 fs-lg d-flex" v-for="(news,i) in category.newsList" :key="i">
+        <router-link
+          tag="div"
+          :to="`/articles/${news._id}`"
+          class="py-2 fs-lg d-flex"
+          v-for="(news,i) in category.newsList"
+          :key="i"
+        >
           <span class="text-info">[{{news.categoryName}}]</span>
           <span class="px-2">|</span>
           <span class="flex-1 text-dark-1 text-ellipsis pr-2">{{news.title}}</span>
           <span class="text-grey-1 fs-sm">{{news.createdAt |date}}</span>
-        </router-link >
+        </router-link>
       </template>
     </m-list-card>
 
     <m-list-card icon="card-hero" title="英雄列表" :categories="heroCats">
       <template #items="{category}">
         <div class="d-flex flex-wrap" style="margin:0 -0.5rem">
-              <div class="p-3 text-center" style="width:20%" v-for="(hero,i) in category.heroList" :key="i">
-             <img :src="hero.avatar" class="w-100" >
-             <div>{{hero.name}}</div>
-        </div>
+          <router-link
+            :to="`heroes/${hero._id}`"
+            tag="div"
+            class="p-3 text-center"
+            style="width:20%"
+            v-for="(hero,i) in category.heroList"
+            :key="i"
+          >
+            <img :src="hero.avatar" class="w-100" />
+            <div>{{hero.name}}</div>
+          </router-link>
         </div>
       </template>
     </m-list-card>
-      <m-list-card icon="menu" title="新闻资讯" :categories="newsCats">
- 
-   
-    </m-list-card>
-      <m-list-card icon="menu" title="新闻资讯" :categories="newsCats">
- 
-
-    </m-list-card>
+    <m-list-card icon="menu" title="新闻资讯" :categories="newsCats"></m-list-card>
+    <m-list-card icon="menu" title="新闻资讯" :categories="newsCats"></m-list-card>
   </div>
 </template>
 
 <script>
-import dayjs from 'dayjs';
+import dayjs from "dayjs";
 export default {
-  filters:{
-  date(val){
-      return dayjs(val).format('MM/DD')
-     }
-    },
+  filters: {
+    date(val) {
+      return dayjs(val).format("MM/DD");
+    }
+  },
   data() {
     return {
       swiperOption: {
@@ -95,23 +100,22 @@ export default {
         { name: "王者营地", class: "sprite-base" },
         { name: "公众号", class: "sprite-public" },
         { name: "版本介绍", class: "sprite-version" }
-      ],newsCats:[],
-      heroCats:[]
-    }
-    
+      ],
+      newsCats: [],
+      heroCats: []
+    };
   },
-  created(){
-   this.fetchNewsCats(),
-   this.fetchHeroCats()
+  created() {
+    this.fetchNewsCats(), this.fetchHeroCats();
   },
-  methods:{
-    async fetchNewsCats(){
-       const res =await this.$http.get('/news/list');
-       this.newsCats=res.data
+  methods: {
+    async fetchNewsCats() {
+      const res = await this.$http.get("/news/list");
+      this.newsCats = res.data;
     },
-      async fetchHeroCats(){
-       const res =await this.$http.get('/heroes/list');
-       this.heroCats=res.data
+    async fetchHeroCats() {
+      const res = await this.$http.get("/heroes/list");
+      this.heroCats = res.data;
     }
   }
 };
