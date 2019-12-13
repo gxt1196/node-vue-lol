@@ -156,7 +156,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/scss/_variables.scss" .page-hero {
+@import "../assets/scss/_variables.scss";
+.page-hero {
   .top {
     height: 50vw;
     background: #fff no-repeat top center;
